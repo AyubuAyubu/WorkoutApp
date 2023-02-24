@@ -53,6 +53,60 @@ object Constants {
 		)
 		exercisList.add(lunge)
 
+		val plank=ExerciseModel(
+			6,
+			"Plank",
+			R.drawable.ic_plank,
+			false,
+			false
+		)
+		exercisList.add(plank)
+
+		val pushUpRotation=ExerciseModel(
+			7,
+			"Rotational Push up",
+			R.drawable.ic_push_up_rotation,
+			false,
+			false
+		)
+		exercisList.add(pushUpRotation)
+
+		val sidePlank=ExerciseModel(
+			8,
+			"Side Plank",
+			R.drawable.ic_side_plank,
+			false,
+			false
+		)
+		exercisList.add(sidePlank)
+
+		val squat=ExerciseModel(
+			9,
+			"Squat",
+			R.drawable.ic_squat,
+			false,
+			false
+		)
+		exercisList.add(squat)
+
+		val triceps=ExerciseModel(
+			10,
+			"Triceps on Chair",
+			R.drawable.ic_triceps_dip_on_chair,
+			false,
+			false
+		)
+		exercisList.add(triceps)
+
+		val highknees=ExerciseModel(
+			10,
+			"High Knees Running",
+			R.drawable.ic_high_knees_running,
+			false,
+			false
+		)
+		exercisList.add(highknees)
+
 		return exercisList
 	}
 }
