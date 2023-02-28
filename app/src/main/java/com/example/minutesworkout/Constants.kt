@@ -99,7 +99,7 @@ object Constants {
 		exercisList.add(triceps)
 
 		val highknees=ExerciseModel(
-			10,
+			11,
 			"High Knees Running",
 			R.drawable.ic_high_knees_running,
 			false,
