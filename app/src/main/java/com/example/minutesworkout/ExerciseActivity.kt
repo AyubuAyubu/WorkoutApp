@@ -14,14 +14,13 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.minutesworkout.databinding.ActivityExerciseBinding
-import com.example.minutesworkout.databinding.ActivityMainBinding
 import com.example.minutesworkout.databinding.DialogCustomBackConfirmationBinding
 import java.util.*
 import kotlin.collections.ArrayList
 
 class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
-	private var binding : ActivityExerciseBinding? = null
+	private var binding :ActivityExerciseBinding? = null
 
     private var restTimer:CountDownTimer?=null
 	private var restTimerDuration:Long=1
