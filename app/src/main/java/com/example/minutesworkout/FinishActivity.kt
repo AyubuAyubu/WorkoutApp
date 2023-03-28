@@ -31,7 +31,7 @@ class FinishActivity : AppCompatActivity() {
 		binding?.btnFinish?.setOnClickListener {
 			finish()
 		}
-		val dao = (application as WorkoutApp).db.historyDao
+		val dao = (application as WorkoutApp).db.historyDao()
 		addDateToDatabase(dao)
 	}
 		fun addDateToDatabase(historyDao: HistoryDao) {

@@ -1,11 +1,12 @@
 package com.example.minutesworkout
 
-import androidx.room.Dao
-import androidx.room.Insert
 
 @Dao
 interface HistoryDao {
 
 	@Insert
 	suspend fun insert(historyEntity: HistoryEntity)
+
+	@Query("Select * from `history-table`")
+	suspend fun fetchAllDates(): Flow<List<HistoryEntity>>
 }

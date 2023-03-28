@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase
 
 abstract  class HistoryDatabase:RoomDatabase() {
 
-	abstract class historyDao():HistoryDao
+	abstract fun historyDao():HistoryDao
 
 	companion object {
 
